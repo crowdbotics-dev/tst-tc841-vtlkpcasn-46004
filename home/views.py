@@ -3,6 +3,7 @@ from django.shortcuts import render
 
 def home(request):
     packages = [
+	{'name':'BlazeWeb', 'url': 'http://pypi.python.org/pypi/BlazeWeb/0.5.2'},
 	{'name':'AuditBWC', 'url': 'http://pypi.python.org/pypi/AuditBWC/0.1.1'},
 	{'name':'BlazeUtils', 'url': 'http://pypi.python.org/pypi/BlazeUtils/0.5.3'},
 	{'name':'blaze', 'url': 'http://pypi.python.org/pypi/blaze/0.10.1'},
